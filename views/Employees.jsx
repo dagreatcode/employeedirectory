@@ -15,11 +15,11 @@ const Employees = () => {
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>1988</td>
+                    <th scope="row">#</th>
+                    <td>{props.firstname}</td>
+                    <td>{props.lastname}</td>
+                    <td>{props.email}</td>
+                    <td>{props.dob}</td>
                     </tr>
                 </tbody>
                 </table>
