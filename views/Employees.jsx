@@ -1,5 +1,5 @@
 import React from 'react';
-import searchEmployee from "./components/searchEmployee";
+import searchEmployee from "../components/searchEmployee";
 
 
 const Employees = (props) => {
