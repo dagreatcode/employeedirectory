@@ -1,6 +1,8 @@
 import React from 'react';
+import searchEmployee from "./components/searchEmployee";
 
-const Employees = () => {
+
+const Employees = (props) => {
     return (
         <div>
             <table class="table">
