@@ -4,6 +4,12 @@ import searchEmployee from "../components/searchEmployee";
 import API from "../utils/API";
 
 class employeeDetail extends Component {
+    state = {
+        employees: [],
+        results: [],
+        search: "",
+        sortFilter: "",
+      };
     render() {
         return (
             <div>
